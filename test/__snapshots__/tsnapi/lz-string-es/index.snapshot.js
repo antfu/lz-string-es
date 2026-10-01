@@ -20,7 +20,6 @@ export function decompressFromUint8Array(_) {}
 export function decompressFromUTF16(_) {}
 // #endregion
 
-// #region Default Export
-var _default
-export default _default
+// #region Variables
+export var _lzStringOriginalVersion
 // #endregion

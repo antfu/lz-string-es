@@ -21,24 +21,6 @@ export declare function decompressFromUint8Array(_: Uint8Array | null): string |
 export declare function decompressFromUTF16(_: string | null): string | null | undefined;
 // #endregion
 
-// #region Default Export
-declare const _default: {
-  _compress: typeof _compress;
-  _decompress: typeof _decompress;
-  compress: typeof compress;
-  compressToBase64: typeof compressToBase64;
-  compressToCustom: typeof compressToCustom;
-  compressToEncodedURIComponent: typeof compressToEncodedURIComponent;
-  compressToUint8Array: typeof compressToUint8Array;
-  compressToUTF16: typeof compressToUTF16;
-  convertFromUint8Array: typeof convertFromUint8Array;
-  convertToUint8Array: typeof convertToUint8Array;
-  decompress: typeof decompress;
-  decompressFromBase64: typeof decompressFromBase64;
-  decompressFromCustom: typeof decompressFromCustom;
-  decompressFromEncodedURIComponent: typeof decompressFromEncodedURIComponent;
-  decompressFromUint8Array: typeof decompressFromUint8Array;
-  decompressFromUTF16: typeof decompressFromUTF16;
-};
-export default _default
+// #region Variables
+export declare let _lzStringOriginalVersion: string;
 // #endregion

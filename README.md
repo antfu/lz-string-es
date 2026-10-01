@@ -13,7 +13,7 @@ An ESM-only build of [lz-string](https://github.com/pieroxy/lz-string), the LZ-b
 This package is **not a fork or a rewrite**. The original [`pieroxy/lz-string`](https://github.com/pieroxy/lz-string) repository is included as a git submodule in [`vendor/lz-string`](./vendor/lz-string) and stays the single source of truth for the algorithm. `src/index.ts` only re-exports its APIs, and [tsdown](https://tsdown.dev) recompiles and bundles them from that TypeScript source into a modern distribution:
 
 - ESM only, no CommonJS or UMD
-- Named exports (and a default export for drop-in compatibility), tree-shakable, `sideEffects: false`
+- Named exports only (no default export), tree-shakable, `sideEffects: false`
 - Bundled type declarations
 - No Node.js dependency: the `loadBinaryFile` / `saveBinaryFile` helpers and the CLI are not included
 
