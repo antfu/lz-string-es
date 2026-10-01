@@ -1,7 +1,7 @@
 {
   "name": "lz-string-es",
   "type": "module",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "packageManager": "pnpm@12.8.1",
   "description": "An ESM-only build of lz-string, recompiled from the upstream source",
   "author": "Anthony Fu <anthonyfu117@hotmail.com>",
