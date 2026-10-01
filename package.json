@@ -66,6 +66,7 @@
     "eslint-plugin-slop": "catalog:cli",
     "eslint-plugin-sonarjs": "catalog:cli",
     "knip": "catalog:cli",
+    "lz-string": "catalog:testing",
     "nano-staged": "catalog:cli",
     "publint": "catalog:cli",
     "simple-git-hooks": "catalog:cli",

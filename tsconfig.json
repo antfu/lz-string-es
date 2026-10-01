@@ -12,5 +12,5 @@
     "skipLibCheck": true
   },
   "include": ["*.ts", "test"],
-  "exclude": ["vendor", "src", "test/roundtrip.test.ts"]
+  "exclude": ["vendor", "src", "test/roundtrip.test.ts", "test/compat.test.ts"]
 }
