@@ -10,5 +10,7 @@
     "verbatimModuleSyntax": true,
     "skipDefaultLibCheck": true,
     "skipLibCheck": true
-  }
+  },
+  "include": ["*.ts", "test"],
+  "exclude": ["vendor", "src", "test/roundtrip.test.ts"]
 }
