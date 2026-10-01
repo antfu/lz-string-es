@@ -1,3 +1,4 @@
+import { version } from '../vendor/lz-string/package.json'
 import { _compress } from '../vendor/lz-string/src/_compress'
 import { _decompress } from '../vendor/lz-string/src/_decompress'
 import { compressToBase64, decompressFromBase64 } from '../vendor/lz-string/src/base64'
@@ -7,12 +8,10 @@ import { compress, decompress } from '../vendor/lz-string/src/raw'
 import { compressToUint8Array, convertFromUint8Array, convertToUint8Array, decompressFromUint8Array } from '../vendor/lz-string/src/Uint8Array'
 import { compressToUTF16, decompressFromUTF16 } from '../vendor/lz-string/src/UTF16'
 
-export {
-  /**
-   * The original version of lz-string from the vendor package.
-   */
-  version as _lzStringOriginalVersion,
-} from '../vendor/lz-string/package.json'
+/**
+ * The original version of lz-string from the vendor package.
+ */
+export const _lzStringOriginalVersion = version
 
 // The Node-only file helpers (`loadBinaryFile` / `saveBinaryFile`) are left out
 // so the bundle has no `node:fs` dependency and runs in any runtime.

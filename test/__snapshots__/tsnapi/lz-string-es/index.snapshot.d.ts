@@ -22,5 +22,5 @@ export declare function decompressFromUTF16(_: string | null): string | null | u
 // #endregion
 
 // #region Variables
-export declare let _lzStringOriginalVersion: string;
+export declare const _lzStringOriginalVersion: string;
 // #endregion

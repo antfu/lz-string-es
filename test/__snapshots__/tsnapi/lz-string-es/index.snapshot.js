@@ -21,5 +21,5 @@ export function decompressFromUTF16(_) {}
 // #endregion
 
 // #region Variables
-export var _lzStringOriginalVersion
+export var _lzStringOriginalVersion /* const */
 // #endregion
